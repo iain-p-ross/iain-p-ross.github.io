@@ -4,54 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>...</title>
-    <style>
-  </style>
+    <title>Landing Page</title>
 </head>
-<body onclick='window.location.href="page2.html"''>
-  
-    <div>
-        <a href="page2.html"><video autoplay playsinline loop style="
-            position: fixed;
-            right: 0;
-            bottom: 0;
-            min-width: 100%;
-            min-height: 100%;
-" id="introVideo">
-            <source src="videos/video1.mp4" type="video/mp4">
-        </video></a>
-        <header class="viewport-header">
-          <h1>
-            <span>tread</span>
-          </h1>
-        </header>
-<style>
-  .viewport-header {
-    font-size: 20px;
-          color: white;
-          position: relative;
-          height: 100vh;
-          text-align: center;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-</style>
-        
-    </div>
-    <script>
-        window.onload = function(){
-          var myVideo = document.getElementById("introVideo");
-        
-          document.onkeydown = function(event) {
-            switch (event.keyCode) {
-              case 32: //SpaceBar
-                myVideo.muted = !myVideo.muted;
-              break;
-            }
-            return false;
-          }
-        }
-        </script>
+<body>
+    <img src="videos/plants.jpg" height="300">
+    <h1>Iain P. Ross</h1>
+    <p>Here you will find my projects and experiments as i learn.</p>
+    <h2>Projects</h2>
+    <ul>
+    <li><a href="./page1.html">Videotest</a></li>
+    <li><a href="dasmoto-arts-and-crafts/index.html">Dasmoto's Arts & Crafts</a></li>
+    </ul>
 </body>
 </html>
