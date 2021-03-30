@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>tread</title>
+    <title>tread
+    </title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
-        <a href="page2.html">
-        <video autoplay loop>
+    <div>
+        <a href="page2.html"><video autoplay muted loop style="position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;" id="introVideo">
             <source src="videos/video1.mp4" type="video/mp4">
         </video></a>
+    </div>
+    <script>
+        window.onload = function(){
+          var myVideo = document.getElementById("introVideo");
+        
+          document.onkeydown = function(event) {
+            switch (event.keyCode) {
+              case 32: //SpaceBar
+                myVideo.muted = !myVideo.muted;
+              break;
+            }
+            return false;
+          }
+        }
+        </script>
 </body>
 </html>

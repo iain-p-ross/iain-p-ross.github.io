@@ -9,10 +9,28 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="MainBanner">
-        <a href="page6.html"><video autoplay loop>
+    <div>
+        <a href="page6.html"><video autoplay muted loop style="position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;" id="introVideo">
             <source src="videos/video5.mp4" type="video/mp4">
         </video></a>
     </div>
+    <script>
+        window.onload = function(){
+          var myVideo = document.getElementById("introVideo");
+        
+          document.onkeydown = function(event) {
+            switch (event.keyCode) {
+              case 32: //SpaceBar
+                myVideo.muted = !myVideo.muted;
+              break;
+            }
+            return false;
+          }
+        }
+        </script>
 </body>
 </html>
