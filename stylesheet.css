@@ -1,0 +1,20 @@
+body {
+    background-image: url("./forest-438432_1920.jpg");
+    object-position: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+}
+
+h1 {
+    
+    font-size: xx-large;
+}
+
+p {
+    color:blanchedalmond
+}
+
+.header {
+    text-align: center;
+}
+
