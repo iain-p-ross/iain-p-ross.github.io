@@ -1,13 +1,21 @@
 body {
-    background-image: url("./ictus\ formative\ theory.tif");
+    background-image: url("./ictus\ formative\ theory.jpg");
     object-position: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing:0.2em;
     color: blanchedalmond;
 }
-
+main {
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.274);
+    width: 300px;
+border-color: rgba(255, 255, 255, 0.767);
+    border-style:double;
+    margin: 10px;
+}
 h1 {
     
-    font-size: xx-large;
+    font-size: 25px;
 }
 
 p {
