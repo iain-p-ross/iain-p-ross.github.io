@@ -359,7 +359,7 @@ const wordFunc = (arr) => {
     return arr[index];
 }
 
-
+//binary probability generator
 const pGen = (percent) => {
     if (Math.floor(Math.random() * (100 / percent)) === 0) {
         return true;
